@@ -1,0 +1,10 @@
+{
+    "plugins": ["youtube", "edit-link"],
+    "pluginsConfig": {
+            "edit-link": {
+                "base": "https://github.com/sks/my-road-2-industrial-applications/tree/master",
+                "label": "Edit This Page",
+                "multilingual": false
+            }
+    }
+}

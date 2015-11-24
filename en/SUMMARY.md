@@ -1,0 +1,23 @@
+# Summary
+
+* [Introduction](README.md)
+   * [Contribution](CONTRIBUTING.md)
+* [12 Factor apps](12factor/README.md)
+* [Creating a static file application](static-file-app/README.md)
+   * [Simple static content](static-file-app/step1.md)
+   * [Manifest file](static-file-app/step2.md)
+   * [Angular todo mvc app](static-file-app/step3.md)
+   * [Advanced nginx configuration](static-file-app/advanced_nginx_configuration.md)
+* [Backend service](backend_service/README.md)
+   * [Getting  Started With Spring boot](backend_service/getting_started.md)
+   * [Marketplace and services](backend_service/marketplace_and_services.md)
+* [Patterns](patterns/README.md)
+   * [CI & CD](patterns/ci_&_cd.md)
+* [Security](Security/README.md)
+   * [Creating Predix UAA Instance](Security/creating_predix_uaa_instance.md)
+   * [Talking to UAA Instace](Security/talking_to_uaa_instace.md)
+   * [Registering Client in UAA](Security/registering_client_in_uaa.md)
+   * [Create Dummy Users in UAA](Security/create_dummy_users_in_uaa.md)
+   * [Getting Token from UAA](Security/getting_token_from_uaa.md)
+   * [Securing Server](Security/securing_server.md)
+
