@@ -11,7 +11,7 @@ If it is a typo or something in a particular file, simply go to that file in [th
 
 #### Contributing a whole new topic
 
-This is good news. This whole documentation is made possible thanks to 
+This is good news. This whole documentation is made possible thanks to [Gitbook](https://www.gitbook.com/)
 
 #####Steps
 1. Download [Gitbook Editor](https://www.gitbook.com/editor)
