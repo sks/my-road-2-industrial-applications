@@ -11,7 +11,7 @@ To Validate the token, we need to contact the UAA instance
 
 
 * Checkout [this commit](https://github.com/sks/predix-sample/commit/4f5e5e304fb73d7d16cdfd55e8dbca113b7abca5) to get an idea on what was done.
-* Changes in application.yml
+* Changes in application.yml. Use the ` todolist-server ` client id created [here](registering_client_in_uaa.md)
 ```
 security:
     oauth2:
