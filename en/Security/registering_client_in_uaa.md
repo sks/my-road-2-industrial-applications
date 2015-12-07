@@ -48,6 +48,8 @@ uaac client add todolist-server \
 * ` --autoapprove `. Tells the UAA that these scope should not require user approval. Hence user won't be prompted on a new screen whether the client should be given access to these scopes
 * ` --authorized_grant_types ` : This is something that we should read upon. For now lets stick to implicit
 * ` --redirect_uri `: Where  to redirect once successfully logged in
+* Why 2 clients ?
+    *  In a micro-service world, you don't want to use one client's credentials in another one. In this case ` todo-client ` and ` todo-server `
 
 ##References
 
