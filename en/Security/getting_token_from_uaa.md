@@ -28,7 +28,7 @@ PS : I already had a session with UAA. Hence got redirect in singleshot
 
 ##### Additional Configuration done on the client side.
 1. Enabled [HTML5 Mode](https://docs.angularjs.org/guide/$location) in nginx. [Click here for Code Change](https://github.com/sks/predix-sample/pull/11/files#diff-482fe9fd97c71894541b48caf46732ddR41).
-    1. This way when the UAA redirects to ` /callback `, the ` index.html ` page is returned and the we don't get a ` 404 ` Error page
+    1. This way when the UAA redirects to ` /callback `, ` index.html ` page is returned and the we don't get a ` 404 ` Error page
 
 
 ##References
