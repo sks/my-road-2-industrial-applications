@@ -24,6 +24,18 @@ If you are not sure what [OAuth2](http://oauth.net/2/) / [SAML](https://en.wikip
 * [Create Dummy Users](./create_dummy_users_in_uaa.md)
 * [Getting Token For A User](./getting_token_from_uaa.md)
 
+## Design Guidelines
+PS : This varies from project to project
+1. Client side gets the token from UAA
+2. Server side validates the token with UAA
+3. Server never creates a token
+4. Server never gets a hands on the User credentials (which could be possible with [grant_type password](https://github.com/cloudfoundry/uaa/blob/master/docs/UAA-APIs.rst#password-grant-with-client-and-user-credentials-post-oauth-token), but I vote against it )
+
+
+
+
+
+
 ## References
 * [SAML What it is](https://www.youtube.com/watch?v=50ogFCF56qE)
 * [OAuth2](https://www.youtube.com/watch?v=io_r-0e3Qcw)
