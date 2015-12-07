@@ -3,7 +3,7 @@
 Now that we have configured UAA, Its time to create Client so that the client can get access to Resources
 
 ##Steps
-* Create a client with the following command
+* Create 2 clients with the following command
 
 ```
 uaac client add todolist-client \
@@ -13,6 +13,17 @@ uaac client add todolist-client \
     --authorized_grant_types implicit \
     --redirect_uri https://todo-client.run.aws-usw02-pr.ice.predix.io/callback
  ```
+ 
+ ```
+uaac client add todolist-server \
+    --authorities "uaa.resource" \
+    --scope "openid"  \
+    --autoapprove "openid" \
+    --authorized_grant_types implicit \
+    --redirect_uri https://todo-client.run.aws-usw02-pr.ice.predix.io/callback
+ ```
+ 
+ 
  Don't give any client secret when prompted. Just press enter.
  
  You should be seeing an output similar to the one below
