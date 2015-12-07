@@ -5,7 +5,10 @@ Now that the client side is protected, Its time to protect the server side.
 
 In this case the server side need not generate a token, but all it has to do is validate the token that has been sent by the client side.
 
+To Validate the token, we need to contact the UAA instance 
+
 ### How To ?
+
 
 * Checkout [this commit](https://github.com/sks/predix-sample/commit/4f5e5e304fb73d7d16cdfd55e8dbca113b7abca5) to get an idea on what was done.
 * Changes in application.yml
