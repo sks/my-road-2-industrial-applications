@@ -27,7 +27,8 @@ PS : I already had a session with UAA. Hence got redirect in singleshot
 * Since we had given the callback URL [before](./registering_client_in_uaa.md) while creating the client, The browser gets a redirect to the callback URL with a token
 
 ##### Additional Configuration done on the client side.
-1. Enabled [HTML5 Mode](https://docs.angularjs.org/guide/$location) in nginx. [Code Change](https://github.com/sks/predix-sample/pull/11/files#diff-482fe9fd97c71894541b48caf46732ddR41).
+1. Enabled [HTML5 Mode](https://docs.angularjs.org/guide/$location) in nginx. [Click here for Code Change](https://github.com/sks/predix-sample/pull/11/files#diff-482fe9fd97c71894541b48caf46732ddR41).
+2. 
 
 
 ##References
