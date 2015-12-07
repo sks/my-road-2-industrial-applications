@@ -34,8 +34,6 @@ PS : This varies from project to project
 
 
 
-
-
 ## References
 * [SAML What it is](https://www.youtube.com/watch?v=50ogFCF56qE)
 * [OAuth2](https://www.youtube.com/watch?v=io_r-0e3Qcw)
