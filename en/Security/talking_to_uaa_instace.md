@@ -28,7 +28,7 @@
     
 ## Tips
 * Installing any managing ruby versions and gems is easier if you have [ruby-version-manager](https://rvm.io/) installed
-
+* You might need to specify your proxy when installing cf-uaac: `sudo gem install --http-proxy http://proxy-src.research.ge.com:8080 cf-uaac`
 
 ## References
 * [UAAC User Management](https://docs.pivotal.io/pivotalcf/adminguide/uaa-user-management.html) 
